@@ -1,0 +1,137 @@
+/* CSS styles */
+.wrapper {
+    background-image: url('/assets/images/backimage.jpeg');    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1150px;
+    position: fixed;
+    width: 100%;
+    margin: auto;
+}
+
+/* ToDo - container box */
+.main{
+    font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
+    background-color: #29cdeb54;
+    background-image: linear-gradient(315deg, #9bb7bb 0%, #dcf1f073 74%);
+    opacity: 0.9;
+    max-width: 60%;
+    position: relative;
+    margin: auto;
+    box-shadow: 5px 6px 5px 6px#197485;
+    border-radius: 20px;
+    padding: 0;
+    margin-top: 280px; 
+    min-width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Date class styling */
+.nav{
+    display: block;
+    line-height: 3em;
+    font-size: 16px;
+}
+.dateClass{
+    float: left;
+    margin: 20px 20px;
+    color:black;
+    background-color:#cce8ec;
+    padding: 0 10px;
+    border-radius: 20px;
+}
+
+/* Header & Select-All class styling */
+.main-container{
+    /* margin: 2%; */
+    width: 100%;
+    margin: auto;
+    display: inline-block;
+}
+
+.header, .inputDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.info{
+    display: flex; 
+    justify-content:flex-end;
+    margin-right: 30px;
+}
+
+.checkbox-inline, input {
+    margin-right: 10px;
+}
+
+/* Task Input box */
+.addInput{
+    max-width: 500px;
+    line-height: 2em;
+    margin: 0px 20px 20px;
+}
+
+/* Task list */
+.content {
+    padding: 10px 30px 15px 0px;
+}
+
+.title{
+    font-size: 18px;
+    margin-left: -20px;
+}
+
+.editTitle{
+    font-size: 18px;
+    position: relative;
+    margin-left: -18px;
+    line-height: 2em;
+}
+
+.remove {
+    width: 70%;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+.completed{
+    text-decoration-line: line-through;
+}
+
+ul > li{
+    display: grid;
+    grid-template-columns: .5fr 2.5fr .5fr .5fr;
+}
+
+li > *{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.listBtn{
+    max-width: 80px;
+    margin: 2px;
+    font-size:18px;
+    height: 2.5em;
+}
+
+.btnDone{
+    padding:5px;
+}
+
+li{
+    background-color:	#ffffff85;
+    margin: 4px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 2rem;
+    line-height: 1.5em;
+    border-radius: 10px;
+}
+
+
+
+
